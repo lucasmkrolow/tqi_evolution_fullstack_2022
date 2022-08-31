@@ -32,11 +32,4 @@ public class LivroService {
     }
 
 
-/*
-    public Livro vendaLivro(int id, int qtdeVenda) {
-        Livro livroASerVendido = getLivroById(id);
-        livroASerVendido.setEstoque(livroASerVendido.estoque + qtdeVenda);
-        return livroRepository.save(livroASerVendido);
-    }
-*/
 }
